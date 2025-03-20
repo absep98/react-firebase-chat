@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    &::-webkit-scrollbar {
+      display: none;
+  }   
 }
 
 body {
@@ -17,7 +20,7 @@ body {
 
 .container{
   width: 90vw;
-  height: 90vh;
+  height: 95vh;
   background-color: rgba(102, 51, 153, 0.466);
   backdrop-filter: blur(10px) saturate(180%);
   border-radius: 12px;
